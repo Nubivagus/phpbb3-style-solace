@@ -19,7 +19,7 @@ window.onkeyup = changeClass;
       <nav>
         <ul>
           {% for section in admin_fields %}
-            <li><a href="#section-flip-{{ loop.index }}" class="icon icon-{{ section.icon }}"><span>{{ section.name }}</span></a></li>
+            <li><a href="#section-flip-{{ loop.index }}" class="row-item icon-{{ section.icon }}"><span>{{ section.name }}</span></a></li>
           {% endfor %}
         </ul>
       </nav>
