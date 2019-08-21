@@ -149,11 +149,11 @@ li.header dd {
 	box-sizing: border-box;
 }
 
-li.header dl.icon dt, li.header dl.icon dd {
+li.header dl.row-item dt, li.header dl.icon dd {
 	min-height: 0;
 }
 
-li.header dl.icon dt .list-inner {
+li.header dl.row-item dt .list-inner {
 	/* Tweak for headers alignment when folder icon used */
   padding-top: 0;
 	padding-left: 75px;
