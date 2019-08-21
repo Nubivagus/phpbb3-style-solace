@@ -416,7 +416,7 @@ li.breadcrumbs span:first-child > a {
 	padding-right: 1px;
 }
 
-.rtl dl.icon {
+.rtl dl.row-item {
 	background-position: 99.5% 50%;
 }
 
